@@ -1,6 +1,6 @@
 # docker-setup
 
-Back-end environment of Forge Graphics Web Application.
+Back-end Developer Examination.
 
 # system requirement
 * NodeJS
@@ -21,35 +21,15 @@ Back-end environment of Forge Graphics Web Application.
 # setup
 
 - go to root directory
-- run command ``` git clone https://github.com/harisonForge/docker-setup.git ```
-- cd docker-setup
-- inside docker-setup folder, run command ``` git clone https://github.com/ForgePDX/back-internal.git ```
-- inside docker-setup folder, run command ``` git clone https://github.com/harisonForge/emailer.git ```
-- inside docker-setup folder, run command ``` git clone https://github.com/harisonForge/harvest-updater.git ```
+- run command ``` git clone https://github.com/jcdm9/uniondigital-exam.git ```
 - run command ``` docker-compose up -d ```
 
 # directory structure
-  - back-internal
-    - files
-    - src
-      - config
-      - controllers
-      - models
-      - routes
-      - utils
-  - emailer
-    - files
-    - src
-      - config
-      - controllers
-      - models
-      - routes
-      - utils
-  - harvest-updater
-    - files
-    - src
-      - config
-      - controllers
-      - models
-      - routes
-      - utils
+  - src
+    - config
+    - controllers
+    - models
+    - routes
+    - utils
+  - test
+    - api
