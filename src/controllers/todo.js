@@ -76,7 +76,7 @@ const remove = async (req, res, next) => {
     const todo = await ToDo.findOne({ _id: id })
     if (!todo) return res.status(404).json({ message: ERROR_404 })
 
-    const deleted = await todo.remove()
+    const deleted = await todo.remove({ _id: id })
     res.json(deleted)
   } catch(e) {
     console.log(`delete ERROR - ${e}`)
