@@ -37,6 +37,6 @@ Back-end Developer Examination.
 
 Once the application is running, you can navigate to http://localhost:3009/api-docs to view the Swagger UI documentation.
 
-#testing
+# testing
 
 To test the API, use the command ``` npm run test```
