@@ -1,4 +1,4 @@
-# docker-setup
+# To Do Application
 
 Back-end Developer Examination.
 
@@ -26,10 +26,17 @@ Back-end Developer Examination.
 
 # directory structure
   - src
-    - config
-    - controllers
-    - models
-    - routes
-    - utils
+    - config - configurations in system
+    - controllers - methods for routes
+    - models - database schema
+    - routes - api routes
   - test
-    - api
+    - api - api tests for each routes
+
+# API Documentation
+
+Once the application is running, you can navigate to http://localhost:3009/api-docs to view the Swagger UI documentation.
+
+#testing
+
+To test the API, use the command ``` npm run test```
